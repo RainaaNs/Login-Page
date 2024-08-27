@@ -1,10 +1,9 @@
-import React from 'react'
 import man from '../assets/man.jpg'
 
 
 function Login () {
   return (
-    <div className='grid grid-cols-1 sm:grid cols-2 h-screen w-full'>
+    <div className='grid grid-cols-1 sm:grid cols-2 h-screen w-full font-semibold'>
 
      <div className='flex flex-col justify-center mt-6'>
 
@@ -30,7 +29,7 @@ function Login () {
               <div >
               <ul className='flex flex-col space-y-[4px] mt-[55px] text-[13px]'>
                 <li className='text-gray-400 list-disc'>Forgot <span className='text-lime-600'>Username/Password?</span></li>
-                <li className='text-gray-400 list-disc'>Don't have an account? <span className='text-lime-600'>Sign up</span></li>
+                <li className='text-gray-400 list-disc'>Don&apos;t have an account? <span className='text-lime-600'>Sign up</span></li>
               </ul>
               </div>
               
