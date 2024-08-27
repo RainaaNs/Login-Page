@@ -1,8 +1,15 @@
-# React + Vite
+***This repository contains various React components for login pages with different UI/UX elements and content writing options, and other minimal design pages.***
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## First Login Page Component (login.jsx)
+This login page offers a clean and modern design for user authentication. Simple white minimalist page design.
 
-Currently, two official plugins are available:
+**Features:**
+- Centered form with username and password fields.
+- Lime green 'login button'.
+- Links for forgotten password recovery and account signup.
+- User avatar image.
+- Responsive layout adapts to mobile and desktop screens.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 
+![Login Page](./src/assets/FirstLoginPage.png)
+##
