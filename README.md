@@ -1,4 +1,4 @@
-***This repository contains various React components for login pages with different UI/UX elements and content writing options.***
+***This repository contains various React components for login pages with different UI/UX elements and content writing options, and other minimal design pages.***
 
 ## First Login Page Component (login.jsx)
 This login page offers a clean and modern design for user authentication. Simple white minimalist page design.
