@@ -15,12 +15,12 @@ function Login () {
               </div> 
 
               <div className='flex flex-col pt-[40px] pb-[9px]'>
-              <input type="text" className='placeholder-gray-400 text-[14px]' placeholder=' Username'/>
+                <input type="text" className='placeholder-gray-400 text-[14px] ' placeholder=' Username'/>
               </div>
               <div className='border-b border-gray-400 '></div>
 
               <div className='flex flex-col pt-[25px] pb-[9px]'>
-              <input type="password" className='placeholder-gray-400 text-[14px]' placeholder=' Password'/>
+                <input type="password" className='placeholder-gray-400 text-[14px]' placeholder=' Password'/>
               </div>
               <div className='border-b border-gray-400  '></div>
 

@@ -6,8 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
   </head>
+  
   <body>
     <div id="root"></div>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const navbar = document.getElementById('navbar');
+        console.log('Current path:', window.location.pathname);
+        if (window.location.pathname === '/profile') {
+          navbar.classList.replace('text-black', 'text-white');
+        } else {
+          navbar.classList.replace('text-white', 'text-black');
+        }
+      });
+    </script>
+    
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

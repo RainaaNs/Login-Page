@@ -7,7 +7,7 @@ import Error from './pages/Error';
 const App = () => {
   return (
     <Router>
-      <nav className='bg-transparent fixed w-full'>
+      <nav  id="navbar" className='bg-transparent fixed w-full text-black'>
         <ul className="flex space-x-4 py-3 pl-5 font-serif">
           <li>
             <Link to="/">Login</Link>
